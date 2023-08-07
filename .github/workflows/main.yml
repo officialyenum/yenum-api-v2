@@ -27,7 +27,7 @@ jobs:
         server:  ftp.yenum.dev
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/api/
+        server-dir: /public_html/www/
         exclude: |
           **/.git*
           **/.git*/**
